@@ -36,7 +36,7 @@ services:
     name: productivity-tips-web
     env: node
     plan: free
-    repo: https://github.com/bduff9/strapi-remix
+    repo: https://github.com/bduff9/strapiconf2022-workshop-remix
     branch: main
     buildCommand: npm install && npm run build
     startCommand: npm start
